@@ -1,8 +1,4 @@
 services:
 - type: pserv
-  name: redis
+  name: memcached
   env: docker
-  disk:
-    name: data
-    mountPath: /var/lib/redis
-    sizeGB: 10
